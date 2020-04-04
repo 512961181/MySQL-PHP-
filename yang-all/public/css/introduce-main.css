@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.mtr10{
+	margin-right:20px;
+}
+.bg{
+	background:url(../images/bg8.jpg) ;
+	height:3600px;
+}
+.introduce{
+	background:#666;
+	height:3400px;
+	margin-top:100px;
+	
+	filter:alpha(opacity=70);  
+	-moz-opacity:0.7;  
+	-khtml-opacity:0.7;  
+	opacity:0.7;  
+}
+.introduce-title{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100px;
+	background:#333;
+	float:left;
+	color:#FFF;
+	padding-top:10px;
+	padding-left:20px;
+	
+}
+.news{
+	margin:100px 125px  20px 125px;
+	width:85%;
+	height:400px;
+	background:#FFF;
+	float:left;
+	
+}
+.news hr{
+	height:10px;
+	border:none;
+	border-top:10px groove skyblue;
+	margin-top:-15px;
+}
+.news-text{
+	text-indent:2em;
+	color:#333;
+	font-size:15px;
+	letter-spacing:2px;
+	padding:0px 30px;
+	line-height:40px;
+	height:200px;
+}
+.news .zan{
+	width:30%;
+	float:left;
+	margin-left:30px;
+}
+.news .more{
+	width:50%;
+	float:right;
+	text-align:right;
+	margin-right:30px;
+}

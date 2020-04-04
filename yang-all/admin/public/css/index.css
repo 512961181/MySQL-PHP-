@@ -1,0 +1,111 @@
+*{
+	margin:0;
+	padding:0;
+}
+ol,ul{list-style:none;}
+a:link,
+a:visited,
+a:hover,
+a:active{text-decoration: none;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt30{margin-top: 30px;}
+.mt40{margin-top: 40px;}
+.mt50{margin-top: 50px;}
+.mt100{margin-top: 100px;}
+.mtr10{margin-right: 10px;}
+body{
+	background:#CCC;
+}
+/*导航栏*/
+.nav-bg{	
+	background-color:transparent;
+}
+.center{
+	margin:0 auto;
+	padding:0;
+}
+.M{
+	margin-top:52px;
+}
+.nav-top{
+	position:fixed;/*固定作用*/
+	top:0px;
+	left:108px;
+	width:1300px;
+	z-index:9999;
+	border:0;
+	/*background-color:transparent;  背景全透明*/
+}
+.nav-top a{
+	font-size:16px;
+	color:#FFF;
+}
+.nav-top a:hover{
+	font-size:18px;
+	color:#FFF;
+	border-bottom:#CCC 3px solid;
+}
+.transparent{  
+	filter:alpha(opacity=80);  
+	-moz-opacity:0.8;  
+	-khtml-opacity:0.8;  
+	opacity:0.8;  
+}  
+.nav-top .icon{
+	width:50px;
+	height:50px;
+	background:url(../images/ico2.png) no-repeat;
+}
+
+/*巨幕*/
+.jumbotron-bg{
+	width:100%;
+	height:600px;
+	line-height:100px;
+	text-align:center;
+	background:url(../images/jumu3.jpg) no-repeat;
+}
+.jumbotron span .one{
+	padding-left:250px;
+}
+.jumbotron .container .start{
+	margin-top:50px;
+	text-align:center;
+	font-size:42px;
+	color:#CCC;
+	font:bold;
+	padding-top:10px;
+}
+.two{
+	margin-top:100px;
+	-moz-transition:all 0.5s ease-in;
+	-ms-transition:all 0.5s ease-in;
+	-o-transition:all 0.5s ease-in;	
+	-webkit-transition:all 0.5s ease-in;
+	transition:all 0.5s ease-in;
+}
+.two:hover{
+	-webkit-transform:rotate3d(0,1,0,180deg);
+	-moz-transform:rotate3d(0,1,0,180deg);
+	-o-transform:rotate3d(0,1,0,180deg);
+	-ms-transform:rotate3d(0,1,0,180deg);
+	transform:rotate3d(0,1,0,180deg);
+}
+
+
+/*尾部*/
+footer{
+	background:#333;
+	height:200px;
+	text-align:center;
+}
+address{
+	color:#FFF;
+	padding-top:70px;
+}
+footer a{
+	color:#FFF;
+	font-size:16px;
+}
+

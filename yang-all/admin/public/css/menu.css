@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+}
+.menu1{
+	width:100%;
+	filter:alpha(opacity=70);  
+	-moz-opacity:0.7;  
+	-khtml-opacity:0.7;  
+	opacity:0.7; 
+}
+.transparent{  
+	filter:alpha(opacity=70);  
+	-moz-opacity:0.7;  
+	-khtml-opacity:0.7;  
+	opacity:0.7;  
+}  
+
+.mrt{
+	margin-top:5px;
+}
+.mrt20{
+	margin-top:20px;
+}
+
+h4{
+	font-size:24px;
+}
+
+.transparent90{  
+	filter:alpha(opacity=90);  
+	-moz-opacity:0.90;  
+	-khtml-opacity:0.90;  
+	opacity:0.90;  
+} 
+.transparent80{  
+	filter:alpha(opacity=80);  
+	-moz-opacity:0.80;  
+	-khtml-opacity:0.80;  
+	opacity:0.80;  
+} 
+.transparent70{  
+	filter:alpha(opacity=70);  
+	-moz-opacity:0.70;  
+	-khtml-opacity:0.70;  
+	opacity:0.70;  
+}  
+.transparent60{  
+	filter:alpha(opacity=60);  
+	-moz-opacity:0.6;  
+	-khtml-opacity:0.6;  
+	opacity:0.6;  
+}  
+.transparent50{  
+	filter:alpha(opacity=50);  
+	-moz-opacity:0.50;  
+	-khtml-opacity:0.50;  
+	opacity:0.50;  
+} 

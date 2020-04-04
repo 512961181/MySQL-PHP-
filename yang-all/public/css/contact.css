@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+<!--联系我们-->
+body{	
+	background:url(../images/produce7.jpg) no-repeat;
+}
+.contact-bg{
+	background:url(../images/produce7.jpg) no-repeat;
+	height:900px;
+}
+.contact{
+	margin:100px 50px 0px 0px;
+	height:270px;
+	background:#333;
+	width:45%;
+	float:left;
+}
+.contact p{
+	color:#FFF;
+	font-size:15px;
+	letter-spacing:2px;
+	padding:20px;
+}
+.transparent{  
+	filter:alpha(opacity=70);  
+	-moz-opacity:0.7;  
+	-khtml-opacity:0.7;  
+	opacity:0.7;  
+}  
+.contact .map{
+	float:right;
+	margin-right:20px;
+}
+
+
